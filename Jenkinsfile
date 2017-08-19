@@ -14,5 +14,4 @@ pipeline {
                 sh 'echo Proceeding To Deployment'
                }
               }
-            }
 }
