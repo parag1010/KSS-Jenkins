@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage("Permission")
+        stage("Permission") {
         steps {
         try {
             timeout(time: 20, unit: 'SECONDS') { 
@@ -15,3 +15,7 @@ pipeline {
                }
               }
 }
+}
+
+
+
